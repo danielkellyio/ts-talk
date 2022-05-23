@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import MyComponent from "./8_Props.vue";
+import MyComponent from "./10_Events.vue";
 </script>
 
 <template></template>
