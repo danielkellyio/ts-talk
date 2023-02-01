@@ -1,22 +1,23 @@
 <script setup lang="ts">
 import { reactive } from "vue";
-// interface VueEvent {
+// interface Site {
 //   name: string;
-//   location: string;
-//   organizers: string[];
+//   url: string;
+//   courses: string[];
 // }
-const conference = reactive({
-  name: "Vue.js Global Summit",
-  location: "online",
-  organizers: [
-    "Madina Alyakbarova",
-    "Ed Nedin",
-    "Nik Petrov",
-    "Pavlo Pankratov",
+const site = reactive({
+  name: "Vue School",
+  url: "https://vueschool.io",
+  courses: [
+    "TypeScript Fundamentals",
+    "TypeScript with Vue.js 3",
+    "Pinia: The Enjoyable Vue Store",
+    "Rapid Testing with Vitest",
+    "Nuxt.js 3 Fundamentals",
   ],
 });
 </script>
 
 <template>
-  {{ conference }}
+  {{ site }}
 </template>
